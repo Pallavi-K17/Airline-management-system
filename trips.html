@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Trips</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="profile.html">My Profile</a></li>
+            <li><a href="trips.html">My Trips</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+        <div class="welcome-message">
+            Welcome, <span id="passengerName">Passenger_Name</span> !!!
+        </div>
+    </nav>
+
+    <!-- My Trips Section -->
+    <section class="trips-section">
+        <h2>My Trips</h2>
+        <div class="trip-links">
+            <a href="#upcoming">Upcoming Trips</a>
+            <a href="#cancelled">Cancelled Trips</a>
+            <a href="#completed">Completed Trips</a>
+        </div>
+
+        <!-- Upcoming Trips -->
+        <div id="upcoming" class="trip-table">
+            <h3>Upcoming Trips</h3>
+            <table>
+                <tr>
+                    <th>Flight Name</th>
+                    <th>Origin</th>
+                    <th>Destination</th>
+                    <th>Travel Date</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Flight A</td>
+                    <td>New York</td>
+                    <td>San Francisco</td>
+                    <td>2024-09-15</td>
+                    <td>$500</td>
+                </tr>
+                <tr>
+                    <td>Flight B</td>
+                    <td>Chicago</td>
+                    <td>Miami</td>
+                    <td>2024-10-05</td>
+                    <td>$400</td>
+                </tr>
+                <tr>
+                    <td>Flight C</td>
+                    <td>Los Angeles</td>
+                    <td>Houston</td>
+                    <td>2024-11-20</td>
+                    <td>$350</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Cancelled Trips -->
+        <div id="cancelled" class="trip-table">
+            <h3>Cancelled Trips</h3>
+            <table>
+                <tr>
+                    <th>Flight Name</th>
+                    <th>Origin</th>
+                    <th>Destination</th>
+                    <th>Travel Date</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Flight X</td>
+                    <td>New York</td>
+                    <td>San Francisco</td>
+                    <td>2024-08-20</td>
+                    <td>$450</td>
+                </tr>
+                <tr>
+                    <td>Flight Y</td>
+                    <td>Chicago</td>
+                    <td>Houston</td>
+                    <td>2024-07-15</td>
+                    <td>$350</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Completed Trips -->
+        <div id="completed" class="trip-table">
+            <h3>Completed Trips</h3>
+            <table>
+                <tr>
+                    <th>Flight Name</th>
+                    <th>Origin</th>
+                    <th>Destination</th>
+                    <th>Travel Date</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Flight Z</td>
+                    <td>New York</td>
+                    <td>Miami</td>
+                    <td>2024-06-10</td>
+                    <td>$300</td>
+                </tr>
+                <tr>
+                    <td>Flight W</td>
+                    <td>Chicago</td>
+                    <td>San Francisco</td>
+                    <td>2024-05-05</td>
+                    <td>$500</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+</html>

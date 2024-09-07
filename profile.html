@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - Airline Management System</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="profile.html">My Profile</a></li>
+            <li><a href="trips.html">My Trips</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+        <div class="welcome-message">
+            Welcome, <span id="passengerName">Passenger_Name</span> !!!
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section class="profile-section">
+        <h2>My Profile</h2>
+
+        <!-- Profile Form -->
+        <form id="profileForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" value="Pallavi" disabled>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" value="Kandukuri" disabled>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" value="2001-06-17" disabled>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" value="pallavi@gmail.com" disabled>
+
+            <label for="address">Address:</label>
+            <textarea id="address" rows="3" disabled>#123 bhavani nagar , diesel colony, waranagal, telangana</textarea>
+
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact" value="1234567890" disabled>
+
+            <button type="button" id="editButton">Edit</button>
+            <button type="button" id="saveButton" disabled>Save</button>
+        </form>
+    </section>
+
+    <script src="profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: teal;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.welcome-message {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+/* Title Section */
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Search Section */
+.search-section {
+    background-color: white;
+    color: black;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.search-section form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.search-section label {
+    flex: 1 0 100%;
+    margin: 10px 0;
+}
+
+.search-section input, .search-section select {
+    flex: 1 0 48%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.search-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.search-section button:hover {
+    background-color: cobalt;
+}
+
+.trips-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.trip-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.trip-links a {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.trip-links a:hover {
+    background-color: gray;
+}
+
+.trip-table {
+    margin: 20px 0;
+}
+
+.trip-table table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.trip-table th, .trip-table td {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.trip-table th {
+    background-color: lightgray;
+}
+
+.trip-table td {
+    background-color: white;
+    color: black;
+}
+
+/* Profile Section */
+.profile-section {
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.profile-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-section form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.profile-section label {
+    flex: 1 0 100%;
+    margin: 10px 0;
+}
+
+.profile-section input, .profile-section textarea {
+    flex: 1 0 48%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    background-color: lightgray;
+}
+
+.profile-section textarea {
+    resize: none;
+}
+
+.profile-section button {
+    width: 100px;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.profile-section button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
